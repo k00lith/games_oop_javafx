@@ -7,6 +7,7 @@ public class Win {
             if (board[i][i] == 1) {
                 if (vertical(board, i) || gorizont(board, i)) {
                     rsl = true;
+                    break;
                 }
             }
         }
